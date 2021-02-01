@@ -62,6 +62,7 @@
     #footer div div.section p {
         text-align: left;
     }
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -145,4 +146,16 @@
 #page #header #tagline div p {
     font-size: 18px;
 }
+
+    #content div#home div div#aside div img, #content div img {
+        float: none;
+    }
+
+    #content div#home div div#aside div p, #content div p {
+        width: 300px;
+    }
+
+    #content div#home div div#aside div p, #content div p {
+        display: block;
+    }
 }
